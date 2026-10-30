@@ -2,6 +2,10 @@
 
 https://github.com/cat-yummi-dspmod/DSP-CustomAchievements
 
+![panel](https://raw.githubusercontent.com/cat-yummi-dspmod/DSP-CustomAchievements/main/preview/panel.jpg)
+
+![popup](https://raw.githubusercontent.com/cat-yummi-dspmod/DSP-CustomAchievements/main/preview/popup.jpg)
+
 <details>
 <summary>English</summary>
 
