@@ -1,7 +1,7 @@
 {
   "name": "CustomAchievements",
   "description": "Custom achievements for DSP mods, stored in their own file. | 戴森球计划自定义成就前置，独立存档，不写原版成就文件。",
-  "version_number": "0.2.0",
+  "version_number": "0.0.0",
   "website_url": "https://github.com/cat-yummi-dspmod/DSP-CustomAchievements",
   "dependencies": [
     "xiaoye97-BepInEx-5.4.17",

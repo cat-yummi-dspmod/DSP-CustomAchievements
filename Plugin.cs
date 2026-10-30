@@ -10,7 +10,7 @@ namespace CustomAchievements
     {
         public const string PluginGuid = "com.yummi.dsp.customachievements";
         public const string PluginName = "Custom Achievements";
-        public const string PluginVersion = "0.2.0";
+        public const string PluginVersion = "0.0.0";
         public const string GitHubUrl = "https://github.com/cat-yummi-dspmod/DSP-CustomAchievements";
 
         internal static ManualLogSource Log;
