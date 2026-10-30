@@ -48,6 +48,7 @@ namespace CustomAchievements
         static string pendingReveal;
         static int builtVersion = -1;
         static int builtLcid = -1;
+        static int toggleLcid = -1;
         static float lastRebuildTime = -100f;
         static float contentHeight;
         static int total;
@@ -67,6 +68,10 @@ namespace CustomAchievements
             if (!panel.gameObject.activeInHierarchy)
             {
                 return;
+            }
+            if (CatAPI.Lang.Lcid != toggleLcid)
+            {
+                UpdateToggleText();
             }
             if (pendingReveal != null)
             {
@@ -237,6 +242,7 @@ namespace CustomAchievements
 
         static void UpdateToggleText()
         {
+            toggleLcid = CatAPI.Lang.Lcid;
             if (toggleText != null)
             {
                 toggleText.text = showMods
